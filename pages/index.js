@@ -15,8 +15,8 @@ const Main = () => {
   }
 
   return (
-    <Box display='flex' justifyContent='center' alignItems='center' h='100vh'>
-      <Box maxW={650} w='50%' border='tan.100 1px solid' shadow='md' padding={14}>
+    <Box display='flex' justifyContent='center' alignItems='center' h='100vh' bg='teal.50'>
+      <Box maxW={650} w='50%' border='tan.100 1px solid' shadow='md' padding={14} bg='white'>
         <FormLabel mt={4} as='legend'>Chose the quantity of data to show</FormLabel>
         <Slider defaultValue={20} min={20} max={100} step={20} onChange={(e) => setSliderValue(e)}>
           <SliderMark value={20}>
